@@ -1,3 +1,4 @@
+use student;
 create table student(id int(10),name varchar(10),age datetime,sex varchar(10));
 
 insert into student values(1 , 'Cotton' , '1990-01-01' , 'male');
